@@ -38,26 +38,7 @@ public class HlavniProgram {
 
         nakresliNohy();
 
-        /*
-        zofka.move(120);
-        nakresliTrojuhelnik();
-
-        zofka.turnRight(15);
-
-        nakresliNohy();
-
-        zofka.turnRight(60);
-        zofka.penUp();
-        zofka.move(120);
-        zofka.penDown();
-        zofka.turnRight(60);
-
-        nakresliNohy();
-        */
-
-
     }
-
 
     private void nakresliObdelnik() {
         for (int i = 0; i < 2; i++) {
@@ -110,9 +91,6 @@ public class HlavniProgram {
         zofka.penDown();
         zofka.move(35);
     }
-
-
-
 
     public static void main(String[] args) {
         new HlavniProgram().start();
